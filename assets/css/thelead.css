@@ -1,0 +1,468 @@
+/* Global */
+
+p {
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 427px) {
+    p, h3, li {
+        font-size: 20px;
+    }
+}
+
+/* Navbar */
+
+#myNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+}
+
+#myNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #faf9f9;
+    border: 0;
+    background-color: #ff900c;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#myNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 1em;
+    letter-spacing: 0.5px;
+    color: #faf9f9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#myNav .navbar-nav .nav-item .nav-link.active, #myNav .navbar-nav .nav-item .nav-link:hover {
+    color: #307795;
+}
+
+#myNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #faf9f9;
+}
+
+#myNav.navbar-shrink .navbar-brand {
+    padding: 10px 0;
+}
+
+#myNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 1em;
+    letter-spacing: 0.5px;
+    color: #ff900c;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (max-width: 1024px) {
+    #myNav .navbar-nav .nav-item .nav-link {
+        font-size: 80%;
+    }
+    #myNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #faf9f9;
+    }
+    #myNav.navbar-shrink .navbar-brand {
+        padding: 10px 0;
+    }
+    #myNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        font-size: 80%;
+        font-weight: 400;
+        padding: 1em;
+        letter-spacing: 0.5px;
+        color: #ff900c;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
+@media (max-width: 427px) {
+    #myNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+    #myNav .navbar-toggler {
+        font-size: 12px;
+        right: 0;
+        padding: 13px;
+        text-transform: uppercase;
+        color: #faf9f9;
+        border: 0;
+        background-color: #ff900c;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #myNav .navbar-nav .nav-item .nav-link {
+        font-size: 100%;
+        font-weight: 400;
+        padding: 1em;
+        letter-spacing: 0.5px;
+        color: #faf9f9;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #myNav .navbar-nav .nav-item .nav-link.active, #myNav .navbar-nav .nav-item .nav-link:hover {
+        color: #307795;
+    }
+    #myNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #faf9f9;
+    }
+    #myNav.navbar-shrink .navbar-brand {
+        padding: 10px 0;
+    }
+    #myNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        font-size: 100%;
+        font-weight: 400;
+        padding: 1em;
+        letter-spacing: 0.5px;
+        color: #ff900c;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
+/* Header Section */
+
+header.head {
+    height: 600px;
+    background: url("../imgs/img-header.jpg") center center repeat fixed;
+    text-align: center;
+    color: white;
+}
+
+header.head .brief {
+    line-height: 120%;
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 160px;
+    padding-bottom: 20px;
+}
+
+header.head .description {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 1200px) {
+    header.head .brief {
+        font-size: 65px;
+        padding-top: 140px;
+        padding-bottom: 20px;
+    }
+    header.head .description {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    header.head .brief {
+        font-size: 50px;
+        padding-top: 130px;
+        padding-bottom: 20px;
+    }
+    header.head .description {
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 427px) {
+    header.head .brief {
+        font-size: 40px;
+        padding-top: 130px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 346px) {
+    header.head .brief {
+        font-size: 35px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    header.head .description {
+        padding-bottom: 20px;
+    }
+}
+
+/* Button Primary */
+
+.btn-primary {
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #faf9f9;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ff900c;
+    border-color: #a35a0c;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #307795 !important;
+    border-color: #307795 !important;
+    color: white;
+}
+
+/* About Us Section */
+
+#about {
+    text-align: center;
+    background: url('../imgs/tile.jpg') top left repeat;
+    padding-bottom: 10px;
+}
+
+#about .the-lead-chekka-logo {
+    text-align: center;
+}
+
+/* Services Section */
+
+#services {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#services .service {
+    padding: 10px;
+}
+
+@media (min-width: 460px) {
+    #services img {
+        max-height: 100%;
+        max-width: 50%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+#services p, #services h3, #services li {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 0px !important;
+}
+
+li {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (max-width: 460px) {
+    #services h3 {
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    #services img {
+        max-height: 100%;
+        max-width: 40%;
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding-bottom: 12px;
+    }
+}
+
+#services .col-sm-3 {
+    text-align: center;
+}
+
+/* Events and Trainings */
+
+#events {
+    background-image: url("../imgs/img-events.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#events a {
+    color: #ff900c;
+}
+
+#events a:hover {
+    color: #307795;
+    text-decoration: none;
+}
+
+/* Prices */
+
+#prices {
+    background: url('../imgs/tile.jpg') top left repeat;
+    padding-bottom: 10px;
+}
+
+#prices .package {
+    padding: 25px;
+}
+
+#prices td {
+    padding: 10px;
+}
+
+#prices tr {
+    padding: 35px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#prices p {
+    text-align: left !important;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#prices .price {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#prices .ask {
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Contact Us Section */
+
+#contact {
+    background: url('../imgs/img-contact.jpg') center center repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+input[type="text"], input[type="email"], input[type="search"], textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 12px;
+}
+
+#contact form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 30%;
+    float: right;
+}
+
+/* Footer Section */
+
+footer {
+    background: #3e4249;
+    color: white;
+    padding: 40px;
+    font-size: 12px;
+}
+
+footer h3 {
+    padding: 8px;
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
+
+footer p {
+    padding: 1px;
+    font-size: 12px;
+    text-align: right;
+    margin: 0;
+}
+
+footer p small {
+    padding: 1px;
+    text-align: right;
+    font-size: 10px;
+    margin: 0;
+}
+
+footer a {
+    color: #307795;
+}
+
+@media (max-width: 460px) {
+    footer {
+        text-align: center;
+    }
+    footer h3 {
+        text-align: center !important;
+        font-size: 9px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 9px;
+    }
+}
